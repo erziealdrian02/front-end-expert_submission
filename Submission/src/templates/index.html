@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="LidahLapar App" />
+    <meta name="theme-color" content="#DB0000" />
+
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+    <link rel="icon" href="./icons/favicon.png" />
+    <link rel="manifest" href="./app.webmanifest" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://use.fontawesome.com/b070c8f1df.js"></script>
+    <title>LidahLapar</title>
+  </head>
+  <body>
+    <a href="#mainContent" class="skip-link">Skip to Restaurant?</a>
+    <header class="app-bar">
+      <div class="app-bar__menu">
+        <button id="hamburgerButton">☰</button>
+      </div>
+      <div class="app-bar__brand">
+        <h1>LidahLapar</h1>
+      </div>
+      <nav id="navigationDrawer" class="app-bar__navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#/favorite">Favorite</a></li>
+          <li>
+            <a target="_blank" href="https://github.com/erziealdrian02"
+              >About Us</a
+            >
+          </li>
+        </ul>
+        <div class="nav-list" style="display: none;">
+          <div class="menu-toggle">
+            <button class="toggle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="hero-slider" data-carousel>
+      <div
+        class="carousel-cell"
+        style="background-image: url(../heros/hero-image_1.jpg)"
+      >
+        <div class="overlay"></div>
+        <div class="inner">
+          <h3 class="subtitle">
+            Lidah Lapar, tempatnya mencari kuliner terbaik
+          </h3>
+          <h2 class="title">Welcome to LidahLapar.com</h2>
+          <!-- <a href="#" target="_blank" class="btn"
+            >Tell me more</a
+          > -->
+        </div>
+      </div>
+    </div>
+    <main id="mainContent" tabindex="0"></main>
+    <footer>
+      <p>Copyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Lidah Lapar . All Rights Reserved.</small
+      ></p>
+    </footer>
+  </body>
+</html>
+        
